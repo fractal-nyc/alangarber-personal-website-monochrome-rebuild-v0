@@ -33,7 +33,7 @@ const projects = [
   },
   {
     title: "Swordle",
-    image: "/placeholder.svg?height=300&width=300",
+    image: "/wordle-clone.png",
     description: [
       "Swordle; clone of popular Internet phenomenon Wordle",
       "Built with React and CSS",
