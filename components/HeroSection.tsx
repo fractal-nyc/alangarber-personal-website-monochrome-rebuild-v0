@@ -24,8 +24,8 @@ export default function HeroSection() {
               <TypewriterEffect
                 words={[
                   { text: "Fullstack Developer" },
-                  { text: "React and Angular" },
-                  { text: "Typescript, Python, and Golang" },
+                  { text: "AI Engineer" },
+                  { text: "React, Typescript, Python, and Golang" },
                   { text: "Check out my projects!" },
                 ]}
                 cursorClassName="bg-black"

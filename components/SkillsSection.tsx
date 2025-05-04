@@ -1,27 +1,27 @@
 import {
   Html5,
   Css3,
-  Javascript,
+  JavaScript,
   ReactLogo,
-  Angular,
+  Docker,
   Golang,
   NodeJs,
   Git,
   Python,
-  Sass,
+  Postgres,
 } from "@/components/icons/TechIcons"
 
 const skills = [
   { name: "HTML", icon: Html5 },
   { name: "CSS", icon: Css3 },
-  { name: "JavaScript", icon: Javascript },
+  { name: "JavaScript", icon: JavaScript },
   { name: "React", icon: ReactLogo },
-  { name: "Angular", icon: Angular },
+  { name: "Docker", icon: Docker },
   { name: "Golang", icon: Golang },
   { name: "Node.js", icon: NodeJs },
   { name: "Git", icon: Git },
   { name: "Python", icon: Python },
-  { name: "Sass", icon: Sass },
+  { name: "Postgres", icon: Postgres },
 ]
 
 export default function SkillsSection() {
