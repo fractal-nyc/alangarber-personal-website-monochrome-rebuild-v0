@@ -28,7 +28,7 @@ export default function ContactForm() {
     setIsSubmitting(true)
 
     try {
-      const response = await fetch("https://public.herotofu.com/v1/78131d30-d937-11ec-af04-d73722aa9797", {
+      const response = await fetch("https://formspree.io/f/xkgrrvzn", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
