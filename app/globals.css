@@ -53,3 +53,8 @@ body {
 .square-image {
   @apply aspect-square object-cover border border-black;
 }
+
+/* Remove the square aspect ratio constraint for tarot cards */
+.tarot-card {
+  @apply object-contain border border-white;
+}

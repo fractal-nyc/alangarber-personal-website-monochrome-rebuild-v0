@@ -46,7 +46,7 @@ const projects = [
       "Showcases use of routing, state, dependency injection, and pipes in Angular",
     ],
     links: {
-      project: "https://alanmgarber.com/Magic-The-Gathering",
+      project: "https://oldephraim.github.io/Magic-The-Gathering/",
       github: "https://github.com/OldEphraim/Magic-The-Gathering",
     },
   },

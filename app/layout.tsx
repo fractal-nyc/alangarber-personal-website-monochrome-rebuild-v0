@@ -14,6 +14,11 @@ const jetbrainsMono = JetBrains_Mono({
 export const metadata: Metadata = {
   title: "Alan Garber Portfolio",
   description: "Portfolio website for Alan Garber, Fullstack Developer",
+  icons: {
+    icon: [
+      { url: '/GGGG-icon.png', type: 'image/png' }
+    ]
+  }
 }
 
 export default function RootLayout({
@@ -23,9 +28,6 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <head>
-        <link rel="icon" href="/favicon.ico" />
-      </head>
       <body className={`${jetbrainsMono.variable} font-mono bg-white text-black`}>
         <ThemeProvider attribute="class" defaultTheme="light" enableSystem disableTransitionOnChange>
           <div className="flex flex-col min-h-screen max-w-4xl mx-auto px-4 md:px-8">
