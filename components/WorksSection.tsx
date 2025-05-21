@@ -15,15 +15,15 @@ const projects = [
     },
   },
   {
-    title: "Linear Clone",
+    title: "Tilt Maze App",
     description: [
-      "Frontend clone of Linear task management app",
-      "Built with Next.js, React, and TypeScript",
-      "Features drag-and-drop task management and responsive design",
+      "Mobile maze game controlled by device tilting",
+      "Built with React Native and Expo",
+      "Published on the App Store with accelerometer-based controls",
     ],
     links: {
-      project: "https://linear-clone-old-ephraims-projects.vercel.app/",
-      github: "https://github.com/fractal-bootcamp/alangarber-linear-clone",
+      project: "https://apps.apple.com/us/app/alans-tilt-maze/id6745799336",
+      github: "https://github.com/OldEphraim/TiltMazeApp",
     },
   },
   {
@@ -39,15 +39,15 @@ const projects = [
     },
   },
   {
-    title: "Magic: The Gathering Card Lookup",
+    title: "Linear Clone",
     description: [
-      "Magic: The Gathering card lookup website",
-      "Built with Angular and MTG Developers API",
-      "Showcases use of routing, state, dependency injection, and pipes in Angular",
+      "Frontend clone of Linear task management app",
+      "Built with Next.js, React, and TypeScript",
+      "Features drag-and-drop task management and responsive design",
     ],
     links: {
-      project: "https://oldephraim.github.io/Magic-The-Gathering/",
-      github: "https://github.com/OldEphraim/Magic-The-Gathering",
+      project: "https://linear-clone-old-ephraims-projects.vercel.app/",
+      github: "https://github.com/fractal-bootcamp/alangarber-linear-clone",
     },
   },
 ]

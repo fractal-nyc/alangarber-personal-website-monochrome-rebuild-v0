@@ -11,6 +11,7 @@ const navItems = [
   { name: "About", href: "#about-me" },
   { name: "Portfolio", href: "#works" },
   { name: "GitHub", href: "https://github.com/OldEphraim", external: true },
+  { name: "Internships", href: "#internships" },
   { name: "Resume", href: "https://resume-old-ephraims-projects.vercel.app/", external: true },
   { name: "Contact", href: "#contact-form" },
 ]
