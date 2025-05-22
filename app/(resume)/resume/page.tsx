@@ -66,10 +66,6 @@ export default function ResumePage() {
               GitHub
             </Link>{" "}
             |{" "}
-            <Link href="https://oldephraimlearnstocode.wordpress.com" target="_blank" className="hover:underline">
-              Personal Blog
-            </Link>{" "}
-            |{" "}
             <Link href="https://alanmgarber.com/" target="_blank" className="hover:underline">
               Personal Homepage
             </Link>
