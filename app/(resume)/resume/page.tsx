@@ -92,6 +92,30 @@ export default function ResumePage() {
           <div className="space-y-6 print:space-y-3">
             <div>
               <div className="flex flex-col sm:flex-row justify-between mb-1 print:mb-0">
+                <h3 className="font-medium print:text-xs">HD Research – Software Developer</h3>
+                <span className="text-muted-foreground text-sm print:text-xs">Summer 2025</span>
+              </div>
+              <div className="flex flex-col sm:flex-row justify-between mb-3 print:mb-1">
+                <span className="text-muted-foreground print:text-xs">Remote</span>
+              </div>
+              <ul className="list-disc pl-5 space-y-1 text-sm print:text-xs print:pl-4 print:space-y-0">
+                <li>
+                  Built and deployed landing page using Next.js/TypeScript with payment and auth integrations.
+                </li>
+                <li>
+                  Authored comprehensive technical documentation for the Vers service using Mintlify, improving developer onboarding time.
+                </li>
+                <li>
+                  Maintained and refactored critical Go CLI tools, deploying services to production via Docker/ECS/AWS pipelines.
+                </li>
+                <li>
+                  Debugged and rewrote LLM-generated code across the codebase, establishing a protocol for identifying and fixing AI-written antipatterns.
+                </li>
+              </ul>
+            </div>
+
+            <div>
+              <div className="flex flex-col sm:flex-row justify-between mb-1 print:mb-0">
                 <h3 className="font-medium print:text-xs">Fractal Tech (Steer) – Software Developer (Externship)</h3>
                 <span className="text-muted-foreground text-sm print:text-xs">Spring 2025</span>
               </div>
