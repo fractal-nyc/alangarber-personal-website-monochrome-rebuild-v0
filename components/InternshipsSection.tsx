@@ -11,7 +11,7 @@ const EsaiLogo = () => (
   </svg>
 )
 
-const RubieLogo = () => (
+const HdLogo = () => (
   <svg width="100%" height="100%" viewBox="0 0 100 100" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
     <polygon points="50,20 80,40 80,70 50,90 20,70 20,40" fill="none" stroke="currentColor" strokeWidth="4" />
     <circle cx="50" cy="55" r="15" fill="none" stroke="currentColor" strokeWidth="4" />
@@ -39,12 +39,12 @@ const companies = [
     ],
   },
   {
-    name: "Rubie",
-    logo: RubieLogo,
+    name: "HD Research",
+    logo: HdLogo,
     points: [
-      "Worked on frontend tickets in React and TypeScript, fixing buggy form implementations",
-      "Improved communication with backend services to enhance data flow and reliability",
-      "Enhanced user experience by making the website more intuitive and responsive",
+      "Built and deployed a Next.js/TypeScript landing page with auth and payments wired in",
+      "Wrote Mintlify docs for the Vers service, speeding up developer onboarding",
+      "Refactored Go CLI tools and production services deployed via Docker and AWS",
     ],
   },
   {

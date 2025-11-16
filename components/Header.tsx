@@ -19,7 +19,7 @@ const navItems: NavItem[] = [
   { name: "Internships", href: "/#internships" },
   { name: "Resume", href: "https://alanmgarber.com/resume", external: true },
   { name: "Contact", href: "/#contact-form" },
-  { name: "Blog", href: "/blog" },
+  { name: "Blog", href: "https://oldephraim.substack.com", external: true },
 ]
 
 export default function Header() {

@@ -58,6 +58,10 @@ export default function ResumePage() {
 
           <div className="mt-4 text-sm print:text-xs print:mt-2">
             <span className="font-medium">Links: </span>
+            <Link href="https://apacen-trading.vercel.app/" target="_blank" className="hover:underline">
+              Trading Project
+            </Link>{" "}
+            |{" "}
             <Link href="https://alansarcana.com/" target="_blank" className="hover:underline">
               Full‑Stack Project
             </Link>{" "}
