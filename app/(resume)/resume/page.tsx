@@ -101,18 +101,10 @@ export default function ResumePage() {
               </div>
               <ul className="list-disc pl-5 space-y-1 text-sm print:text-xs print:pl-4 print:space-y-0">
                 <li>
-                  Built and deployed 10+ production systems for hiring partners in rapid sprints (24–72 hours each),
-                  spanning Next.js, FastAPI, NestJS, Go, and Ruby on Rails with PostgreSQL, Supabase, Docker, and cloud
-                  deployments to Vercel, Railway, AWS, Azure, and DigitalOcean.
+                  Built and deployed 10+ production systems in rapid sprints (24–72 hrs) across Next.js, FastAPI, NestJS, Go, and Rails with PostgreSQL, Supabase, Docker, and cloud deploys to Vercel, Railway, AWS, Azure, and DigitalOcean.
                 </li>
                 <li>
-                  Designed and implemented AI-native architectures including RAG pipelines with Pinecone and Voyage Code
-                  2, agentic tool-use loops with Claude and streaming SSE, autonomous multi-agent workflows, and
-                  MCP-inspired plugin systems with sandboxed third-party app integration.
-                </li>
-                <li>
-                  Built real-time multiplayer collaboration with Supabase Broadcast (CollabBoard) and shipped a legacy
-                  codebase RAG system indexing 128K lines of COBOL/C across 13,613 chunks (LegacyLens).
+                  Designed AI-native architectures: RAG pipelines (Pinecone + Voyage Code 2), agentic tool-use loops with Claude and streaming SSE, multi-agent workflows, and MCP-inspired plugin systems.
                 </li>
               </ul>
             </div>
@@ -225,7 +217,7 @@ export default function ResumePage() {
               <h3 className="font-medium print:text-xs">
                 <Link href="https://legacylens-app.vercel.app/" target="_blank" className="hover:underline">LegacyLens</Link>
                 {" — "}
-                <span className="font-normal">RAG-powered exploration of the GnuCOBOL compiler (128K LOC, 117 files, 13,613 chunks) with syntax-aware COBOL paragraph chunking and streaming answers with source citations</span>
+                <span className="font-normal">RAG-powered exploration of the GnuCOBOL compiler (128K LOC, 13,613 chunks) with syntax-aware chunking and streaming cited answers</span>
               </h3>
               <p className="text-sm text-muted-foreground print:text-xs">Python/FastAPI, Next.js, Pinecone, Voyage Code 2, Anthropic Claude, Railway + Vercel</p>
             </div>
