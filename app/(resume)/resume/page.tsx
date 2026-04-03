@@ -58,10 +58,6 @@ export default function ResumePage() {
 
           <div className="mt-4 text-sm print:text-xs print:mt-2">
             <span className="font-medium">Links: </span>
-            <Link href="https://apacen-trading.vercel.app/" target="_blank" className="hover:underline">
-              Trading Dashboard
-            </Link>{" "}
-            |{" "}
             <Link href="https://github.com/OldEphraim/" target="_blank" className="hover:underline">
               GitHub
             </Link>{" "}
@@ -199,26 +195,6 @@ export default function ResumePage() {
               </ul>
             </div>
 
-            <div>
-              <div className="flex flex-col sm:flex-row justify-between mb-1 print:mb-0">
-                <h3 className="font-medium print:text-xs">
-                  Whitney R. Harris World Law Institute – Research Assistant
-                </h3>
-                <span className="text-muted-foreground text-sm print:text-xs">Summers 2020 & 2021</span>
-              </div>
-              <div className="flex flex-col sm:flex-row justify-between mb-3 print:mb-1">
-                <span className="text-muted-foreground print:text-xs">St. Louis, MO</span>
-              </div>
-              <ul className="list-disc pl-5 space-y-1 text-sm print:text-xs print:pl-4 print:space-y-0">
-                <li>
-                  Analyzed WHO responses to pre‑COVID epidemics and briefed faculty on international health regulations.
-                </li>
-                <li>
-                  Translated Russian & Uzbek foreign‑ministry releases to English to broaden the institute&apos;s
-                  primary‑source base.
-                </li>
-              </ul>
-            </div>
           </div>
         </section>
 
@@ -262,32 +238,6 @@ export default function ResumePage() {
                 <span className="font-normal">RAG-powered exploration of the GnuCOBOL compiler (128K LOC, 117 files, 13,613 chunks) with syntax-aware COBOL paragraph chunking and streaming answers with source citations</span>
               </h3>
               <p className="text-sm text-muted-foreground print:text-xs">Python/FastAPI, Next.js, Pinecone, Voyage Code 2, Anthropic Claude, Railway + Vercel</p>
-            </div>
-          </div>
-        </section>
-
-        {/* Earlier Work Section */}
-        <section className="mb-8 print:mb-3">
-          <h2 className="text-base font-semibold mb-2 print:text-sm print:mb-1">Earlier Work</h2>
-          <Separator className="mb-4 print:mb-2" />
-
-          <div className="space-y-3 print:space-y-1">
-            <div>
-              <h3 className="font-medium print:text-xs">
-                <Link href="https://apacen-trading.vercel.app/" target="_blank" className="hover:underline">Apacen Trading</Link>
-                {" — "}
-                <span className="font-normal">Algorithmic trading system for Polymarket prediction markets with real-time WebSocket ingestion across 11,000+ markets, hourly PostgreSQL partitioning, and paper trading strategies</span>
-              </h3>
-              <p className="text-sm text-muted-foreground print:text-xs">Go, PostgreSQL, AWS EC2/S3, Next.js, WebSocket</p>
-            </div>
-
-            <div>
-              <h3 className="font-medium print:text-xs">
-                <Link href="https://alansarcana.com/" target="_blank" className="hover:underline">Alan&apos;s Arcana</Link>
-                {" — "}
-                <span className="font-normal">Full-stack tarot reading app with AI-generated interpretations and per-card art</span>
-              </h3>
-              <p className="text-sm text-muted-foreground print:text-xs">React, Node.js, OpenAI API</p>
             </div>
           </div>
         </section>
@@ -450,16 +400,6 @@ export default function ResumePage() {
               </div>
             </div>
           </div>
-        </section>
-
-        {/* Certifications Section */}
-        <section className="mb-8 print:mb-3">
-          <h2 className="text-base font-semibold mb-2 print:text-sm print:mb-1">Certifications</h2>
-          <Separator className="mb-4 print:mb-2" />
-          <p className="text-sm print:text-xs">
-            Boot.dev — Back‑End Development · freeCodeCamp — Responsive Web Design, JavaScript Algorithms, Front‑End
-            Development
-          </p>
         </section>
 
         {/* Languages Section */}
