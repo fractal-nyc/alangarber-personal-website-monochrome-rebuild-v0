@@ -111,9 +111,8 @@ export default function ResumePage() {
                   MCP-inspired plugin systems with sandboxed third-party app integration.
                 </li>
                 <li>
-                  Achieved 100% eval pass rate on a 9-tool conversational financial agent (AgentForge), built real-time
-                  multiplayer collaboration with Supabase Broadcast (CollabBoard), and shipped a legacy codebase RAG
-                  system indexing 128K lines of COBOL/C across 13,613 chunks (LegacyLens).
+                  Built real-time multiplayer collaboration with Supabase Broadcast (CollabBoard) and shipped a legacy
+                  codebase RAG system indexing 128K lines of COBOL/C across 13,613 chunks (LegacyLens).
                 </li>
               </ul>
             </div>
@@ -220,15 +219,6 @@ export default function ResumePage() {
                 <span className="font-normal">Real-time multiplayer whiteboard with infinite canvas, live cursors, and a Claude Haiku AI agent for natural-language board commands</span>
               </h3>
               <p className="text-sm text-muted-foreground print:text-xs">Next.js, TypeScript, Supabase Broadcast, Konva, Anthropic Claude</p>
-            </div>
-
-            <div>
-              <h3 className="font-medium print:text-xs">
-                <Link href="https://ghostfolio-production-f9fe.up.railway.app" target="_blank" className="hover:underline">AgentForge</Link>
-                {" — "}
-                <span className="font-normal">9-tool conversational AI financial agent built on Ghostfolio with 100% eval pass rate across 55 test cases, streaming SSE, and Langfuse observability</span>
-              </h3>
-              <p className="text-sm text-muted-foreground print:text-xs">NestJS, Angular, PostgreSQL, Redis, Anthropic Claude, Railway</p>
             </div>
 
             <div>
